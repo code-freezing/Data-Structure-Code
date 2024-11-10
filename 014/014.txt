@@ -1,0 +1,21 @@
+KMP
+
+题目描述
+实现kmp.h文件中的两个函数，来完成kmp算法。其中：
+
+vector getNext(const string& str);获取next数组
+int kmp(const string& s, const string& t, vector& next);返回对于主串s最早匹配成功t的下标（默认下标从零开始，如果没有匹配成功返回-1）
+
+输入样例1
+abcd 
+e
+​
+输出样例1
+-1
+​
+输入样例2
+abcdaabc
+aabc
+​
+输出样例2
+4
